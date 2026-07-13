@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <packaging>jar</packaging>
-    <artifactId>ruoyi-admin</artifactId>
+    <artifactId>admin</artifactId>
 
     <description>
         web服务入口
@@ -39,19 +39,19 @@
         <!-- 核心模块-->
         <dependency>
             <groupId>com.mycompany.admin</groupId>
-            <artifactId>ruoyi-framework</artifactId>
+            <artifactId>framework</artifactId>
         </dependency>
 
         <!-- 定时任务-->
         <dependency>
             <groupId>com.mycompany.admin</groupId>
-            <artifactId>ruoyi-quartz</artifactId>
+            <artifactId>quartz</artifactId>
         </dependency>
 
         <!-- 代码生成-->
         <dependency>
             <groupId>com.mycompany.admin</groupId>
-            <artifactId>ruoyi-generator</artifactId>
+            <artifactId>generator</artifactId>
         </dependency>
 
     </dependencies>

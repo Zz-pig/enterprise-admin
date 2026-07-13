@@ -9,18 +9,24 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ruoyi-system</artifactId>
+    <artifactId>quartz</artifactId>
 
     <description>
-        system系统模块
+        quartz定时任务
     </description>
 
     <dependencies>
 
+        <!-- 定时任务 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
+        </dependency>
+
         <!-- 通用工具-->
         <dependency>
             <groupId>com.mycompany.admin</groupId>
-            <artifactId>ruoyi-common</artifactId>
+            <artifactId>common</artifactId>
         </dependency>
 
     </dependencies>
